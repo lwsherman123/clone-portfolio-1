@@ -6,7 +6,7 @@ const Section = styled.div`
   justify-content: center;
 `
 const Container = styled.div`
-  width: 1250px;
+  width: 1400px;
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -30,8 +30,7 @@ const Button = styled.button`
   align-items: center;
   gap: 50px;
   box-shadow: 2px 2px 5px purple;
-  border-radius: 5px;
-  cursor: pointer;
+  border-radius: 5px; 
 `;
 
 const Navbar = () => {
